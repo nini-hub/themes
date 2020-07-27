@@ -1,8 +1,8 @@
 # menu
 menu:
-  Home: .
-  Archives: archives  # 归档
-  Categories: categories  # 分类
+  home: .
+  archives: archives  # 归档
+  # Categories: categories  # 分类
   # Tags: tags  # 标签
   # Repository: repository  # github repositories
   # Books: books  # 豆瓣书单
@@ -19,7 +19,7 @@ menu_icons:
   # repository: icon-project
   # books: icon-book-fill
   # links: icon-friendship
-  about: icon-cup-fill
+  # about: icon-cup-fill
 
 # rss
 rss: /atom.xml
@@ -38,7 +38,7 @@ site:
 
 # config
 config:
-  skin: theme-pink # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin: theme-black # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
   menu_highlight: false # 是否开启当前菜单高亮显示
@@ -186,8 +186,8 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: xxn
-  author_title: Web Developer
+  author: 扫眉
+  author_title: 前端开发
   author_description: 个人简介。
   location: Fuzhou, China
   follow: https://github.com/xxn-my
